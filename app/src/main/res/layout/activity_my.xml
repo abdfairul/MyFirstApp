@@ -1,0 +1,29 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <EditText android:id="@+id/edit_message"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:hint="@string/edit_message" />
+<!--
+    comment for EditText above
+    - The at sign (@) is required when you're referring to any resource object from XML.
+    followed by resource type (id) and resource name (edit_message);
+    - The plus sign (+) before the resource type is needed only when you're defining a resource ID for the first time
+    - hint = This is a default string to display when the text field is empty.
+    - weight - default if 0, if >0 then this view will use all the space left
+    - Note: This string resource has the same name as the element ID: edit_message.
+    However, references to resources are always scoped by the resource type (such as id or string),
+    so using the same name does not cause collisions.
+-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_send"
+        android:onClick="sendMessage" />
+
+</LinearLayout>

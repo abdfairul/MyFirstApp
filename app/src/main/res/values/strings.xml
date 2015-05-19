@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="edit_message">Enter a message</string>
+    <string name="button_send">Send</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_display_message">My Message</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_search">SearchLOL</string>
+</resources>
+
+<!--
+- For text in the user interface, always specify each string as a resource
+- String resources allow you to manage all UI text in a single location, which makes the text easier to find and update
+-->
