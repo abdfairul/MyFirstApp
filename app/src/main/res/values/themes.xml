@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <!-- the theme applied to the application or activity -->
-    <color name="custom_theme_color">#000000</color>
+    <color name="custom_theme_color">#ff27a815</color>
     <color name="custom_theme_color1">#9b234d</color>
     <color name="custom_theme_color2">#9b234d</color>
     <style name="CustomActionBarTheme"
